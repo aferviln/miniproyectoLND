@@ -30,7 +30,7 @@ El proyecto está pensado para realizarse en equipos de 3 personas con los sigui
 2.  **Responsable de Estilo (CSS)**.
 3.  **Responsable de Documentación y QA**.
 
-## 📦 Cómo visualizar el proyecto
+## Cómo visualizar el proyecto
 
 Para ver la web en funcionamiento:
 1.  Clona el repositorio o descarga el archivo ZIP.
