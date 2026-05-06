@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio · Web Corporativa ASIR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="header-logo-container">
+                <svg width="68" height="68" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" class="header-logo">
+                    <defs>
+                        <linearGradient id="logo-master" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#818cf8" />
+                            <stop offset="100%" stop-color="#4f46e5" />
+                        </linearGradient>
+                        <linearGradient id="logo-glow" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#38bdf8" />
+                            <stop offset="100%" stop-color="#0284c7" />
+                        </linearGradient>
+                    </defs>
+                    <rect width="64" height="64" rx="16" fill="url(#logo-master)" />
+                    <path d="M32 16 L14 48 L22 48 L27 38 L37 38 L42 48 L50 48 Z M32 24 L35 31 L29 31 Z"
+                        fill="#ffffff" />
+                    <path d="M14 48 L32 16 L37 38 L22 48 Z" fill="url(#logo-glow)" opacity="0.4" />
+                </svg>
+                <div class="header-titles">
+                    <h1>Web Corporativa ASIR</h1>
+                    <p class="subtitle">Ejemplo de Proyecto de Lenguaje de Marcas: HTML + CSS</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-content">
+            <div class="nav-links">
+                <div class="nav-item">
+                    <a href="index.html" class="active">Inicio</a>
+                    <div class="dropdown-menu">
+                        <a href="index.html#hero">Bienvenida</a>
+                        <a href="index.html#equipo">Equipo y Roles</a>
+                        <a href="index.html#estructura">Estructura</a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="requisitos.html">Requisitos</a>
+                </div>
+                <div class="nav-item">
+                    <a href="roles.html">Roles</a>
+                </div>
+                <div class="nav-item">
+                    <a href="entregables.html">Entregables</a>
+                    <div class="dropdown-menu">
+                        <a href="entregables.html#entregables">Entregables</a>
+                        <a href="entregables.html#orden-trabajo">Orden del Trabajo</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="contacto.html">Contacto</a>
+                    <div class="dropdown-menu">
+                        <a href="contacto.html#formulario">Formulario</a>
+                        <a href="contacto.html#datos">Otros Datos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero" id="hero" style="scroll-margin-top: 100px;">
+            <div class="hero-text">
+                <h2>Bienvenido a nuestra web de práctica</h2>
+                <p>
+                    Esta página ha sido creada como enunciado y ejemplo para el proyecto de
+                    <strong>Lenguaje de Marcas</strong> que van a realizar. El objetivo es aprender a trabajar con
+                    <strong>HTML semántico</strong> y <strong>CSS</strong> en un pequeño proyecto web.
+                </p>
+                <p>
+                    El sitio está organizado en cinco páginas: esta página de inicio, las secciones de
+                    <a href="requisitos.html">requisitos</a>, <a href="roles.html">roles</a> y
+                    <a href="entregables.html">entregables</a> del proyecto, y una página de
+                    <a href="contacto.html">contacto</a>.
+                </p>
+            </div>
+            <div class="hero-box">
+                <h3>Información del proyecto</h3>
+                <ul>
+                    <li>Asignatura: Lenguaje de Marcas</li>
+                    <li>Ciclo: CFGS Administración de Sistemas Informáticos en Red</li>
+                    <li>Tecnologías: HTML5 + CSS3</li>
+                    <li>Duración: 2 sesiones (6 y 7 de mayo)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="proyecto-resumen" style="scroll-margin-top: 100px;">
+            <h2>Sobre el Proyecto</h2>
+            <p>
+                Como parte de la evaluación práctica los alumnos deberán desarrollar una página web
+                estructurada que demuestre el dominio de los lenguajes de marcas y técnicas de maquetación básica.
+            </p>
+            <p>
+                Para consultar los requisitos técnicos, los roles específicos o los materiales a entregar
+                pueden navegar a través del menú superior o visitar directamente la página de
+                <a href="requisitos.html">requisitos del proyecto</a>.
+            </p>
+            <aside class="info-note">
+                <strong>Nota:</strong> Aunque el resultado final es relevante, en esta actividad
+                se priorizará la evaluación del proceso de trabajo. Se valorará especialmente la coordinación efectiva
+                entre los miembros del equipo, la correcta distribución de tareas según los roles asignados y el
+                seguimiento de una metodología de desarrollo estructurada.
+            </aside>
+        </section>
+
+        <section id="equipo" style="scroll-margin-top: 100px;">
+            <h2>Trabajo en equipo y roles</h2>
+            <p>
+                El proyecto se realizará en equipos de <strong>3 personas</strong> con roles diferenciados
+                para simular un entorno de trabajo real:
+            </p>
+
+            <div class="cards">
+                <article class="card">
+                    <img src="img/html.jpg" alt="Responsable HTML" class="card-image">
+                    <h3>Responsable HTML</h3>
+                    <p>
+                        Encargado de la estructura de las páginas: encabezado, navegación, contenido principal y pie
+                        de página. Se asegura de que el código sea semántico y fácil de leer.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <img src="img/css.jpg" alt="Responsable CSS" class="card-image">
+                    <h3>Responsable CSS</h3>
+                    <p>
+                        Se ocupa del diseño visual: colores, tipografías, espaciado, maquetación y pequeños
+                        ajustes responsivos para pantallas más estrechas.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <img src="img/documentacion.jpg" alt="Coordinador Visual" class="card-image">
+                    <h3>Coordinador Visual, Contenido y Documentación</h3>
+                    <p>
+                        Define la paleta de colores, redacta los textos y prepara la documentación del proyecto,
+                        incluyendo capturas y explicación de las decisiones tomadas.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="estructura" style="scroll-margin-top: 100px;">
+            <h2>Estructura del sitio</h2>
+            <p>
+                Esta sigue una estructura muy sencilla pensada como enunciado y ejemplopara practicar los elementos
+                básicos:
+            </p>
+
+            <table class="tabla-simple">
+                <thead>
+                    <tr>
+                        <th>Página</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>index.html</code></td>
+                        <td>Página de inicio con descripción del proyecto y de los roles.</td>
+                    </tr>
+
+                    <tr>
+                        <td><code>requisitos.html</code></td>
+                        <td>Listado detallado de los requisitos técnicos y funcionales.</td>
+                    </tr>
+                    <tr>
+                        <td><code>roles.html</code></td>
+                        <td>Descripción de los roles del equipo y sus tareas específicas.</td>
+                    </tr>
+                    <tr>
+                        <td><code>entregables.html</code></td>
+                        <td>Definición de los materiales a entregar al finalizar el proyecto.</td>
+                    </tr>
+                    <tr>
+                        <td><code>contacto.html</code></td>
+                        <td>Formulario y datos de contacto básicos.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Proyecto de práctica · Lenguaje de Marcas · CFGS ASIR</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto · Web Corporativa ASIR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="header-logo-container">
+                <svg width="68" height="68" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" class="header-logo">
+                    <defs>
+                        <linearGradient id="logo-master" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#818cf8" />
+                            <stop offset="100%" stop-color="#4f46e5" />
+                        </linearGradient>
+                        <linearGradient id="logo-glow" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#38bdf8" />
+                            <stop offset="100%" stop-color="#0284c7" />
+                        </linearGradient>
+                    </defs>
+                    <rect width="64" height="64" rx="16" fill="url(#logo-master)" />
+                    <path d="M32 16 L14 48 L22 48 L27 38 L37 38 L42 48 L50 48 Z M32 24 L35 31 L29 31 Z"
+                        fill="#ffffff" />
+                    <path d="M14 48 L32 16 L37 38 L22 48 Z" fill="url(#logo-glow)" opacity="0.4" />
+                </svg>
+                <div class="header-titles">
+                    <h1>Web Corporativa ASIR</h1>
+                    <p class="subtitle">Página de contacto</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-content">
+            <div class="nav-links">
+                <div class="nav-item">
+                    <a href="index.html">Inicio</a>
+                    <div class="dropdown-menu">
+                        <a href="index.html#hero">Bienvenida</a>
+                        <a href="index.html#equipo">Equipo y Roles</a>
+                        <a href="index.html#estructura">Estructura</a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="requisitos.html">Requisitos</a>
+                </div>
+                <div class="nav-item">
+                    <a href="roles.html">Roles</a>
+                </div>
+                <div class="nav-item">
+                    <a href="entregables.html">Entregables</a>
+                    <div class="dropdown-menu">
+                        <a href="entregables.html#entregables">Entregables</a>
+                        <a href="entregables.html#orden-trabajo">Orden del Trabajo</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="contacto.html" class="active">Contacto</a>
+                    <div class="dropdown-menu">
+                        <a href="contacto.html#formulario">Formulario</a>
+                        <a href="contacto.html#datos">Otros Datos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="contact-layout">
+            <div id="formulario" style="scroll-margin-top: 100px;">
+                <h2>Contacta con nosotros</h2>
+                <p>
+                    Este formulario es un ejemplo de demostración como enunciado para el proyecto que van a realizar.
+                </p>
+
+                <!-- Formulario de ejemplo, sin envío real -->
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="sucorreo@ejemplo.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="motivo">Motivo de contacto</label>
+                        <select id="motivo" name="motivo">
+                            <option value="">Selecciona una opción</option>
+                            <option value="info">Solicitar información</option>
+                            <option value="soporte">Soporte técnico</option>
+                            <option value="otro">Otros</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escriba su mensaje aquí"></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar">Enviar mensaje (ejemplo)</button>
+                </form>
+            </div>
+
+            <aside id="datos" class="contact-info" style="scroll-margin-top: 100px;">
+                <h3>Otros datos de contacto</h3>
+                <p>
+                    También incluimos algunos datos ficticios para mostrar el uso de listas y párrafos
+                    en HTML dentro de un <code>&lt;aside&gt;</code>.
+                </p>
+                <ul>
+                    <li><strong>Nombre del CEO:</strong> Manuel Santos</li>
+                    <li><strong>Dirección:</strong> Calle de Prácticas, 123 · 38000 Ciudad</li>
+                    <li><strong>Teléfono:</strong> +34 900 000 000</li>
+                    <li><strong>Correo CEO:</strong> ceo@empresa-ejemplo.com</li>
+                    <li><strong>Correo:</strong> info@empresa-ejemplo.com</li>
+                </ul>
+
+                <h4>Horario de atención</h4>
+                <ul>
+                    <li>Lunes a viernes: 9:00 - 18:00</li>
+                    <li>Sábados: 10:00 - 14:00</li>
+                    <li>Domingos y festivos: cerrado</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Proyecto de práctica · Lenguaje de Marcas · CFGS ASIR</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Roles · Web Corporativa ASIR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="header-logo-container">
+                <svg width="68" height="68" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" class="header-logo">
+                    <defs>
+                        <linearGradient id="logo-master" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#818cf8" />
+                            <stop offset="100%" stop-color="#4f46e5" />
+                        </linearGradient>
+                        <linearGradient id="logo-glow" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#38bdf8" />
+                            <stop offset="100%" stop-color="#0284c7" />
+                        </linearGradient>
+                    </defs>
+                    <rect width="64" height="64" rx="16" fill="url(#logo-master)" />
+                    <path d="M32 16 L14 48 L22 48 L27 38 L37 38 L42 48 L50 48 Z M32 24 L35 31 L29 31 Z"
+                        fill="#ffffff" />
+                    <path d="M14 48 L32 16 L37 38 L22 48 Z" fill="url(#logo-glow)" opacity="0.4" />
+                </svg>
+                <div class="header-titles">
+                    <h1>Web Corporativa ASIR</h1>
+                    <p class="subtitle">Equipos y Roles</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-content">
+            <div class="nav-links">
+                <div class="nav-item">
+                    <a href="index.html">Inicio</a>
+                    <div class="dropdown-menu">
+                        <a href="index.html#hero">Bienvenida</a>
+                        <a href="index.html#equipo">Equipo y Roles</a>
+                        <a href="index.html#estructura">Estructura</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="requisitos.html">Requisitos</a>
+                </div>
+                <div class="nav-item">
+                    <a href="roles.html" class="active">Roles</a>
+                </div>
+                <div class="nav-item">
+                    <a href="entregables.html">Entregables</a>
+                    <div class="dropdown-menu">
+                        <a href="entregables.html#entregables">Entregables</a>
+                        <a href="entregables.html#orden-trabajo">Orden del Trabajo</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="contacto.html">Contacto</a>
+                    <div class="dropdown-menu">
+                        <a href="contacto.html#formulario">Formulario</a>
+                        <a href="contacto.html#datos">Otros Datos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="roles">
+            <h2>Distribución de Responsabilidades</h2>
+            <p>
+                Para simular un entorno profesional el trabajo se divide en tres roles clave.
+                A continuación se detallan las tareas específicas de cada uno:
+            </p>
+
+            <div class="cards">
+                <article class="card">
+                    <img src="img/html.jpg" alt="Responsable HTML" class="card-image">
+                    <h3>Responsable HTML</h3>
+                    <ul>
+                        <li>Definición de la estructura de las páginas.</li>
+                        <li>Implementación de etiquetas semánticas (HTML5).</li>
+                        <li>Asegurar la accesibilidad y jerarquía de contenidos.</li>
+                        <li>Organización de la arquitectura de ficheros.</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <img src="img/css.jpg" alt="Responsable CSS" class="card-image">
+                    <h3>Responsable CSS</h3>
+                    <ul>
+                        <li>Diseño visual y paleta de colores.</li>
+                        <li>Maquetación responsiva (Flexbox y Grid).</li>
+                        <li>Uso de variables CSS y estilos reutilizables.</li>
+                        <li>Implementación de transiciones y animaciones.</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <img src="img/documentacion.jpg" alt="Coordinador de Documentación" class="card-image">
+                    <h3>Coordinador Visual y de Documentación</h3>
+                    <ul>
+                        <li>Revisión de la paleta de colores para para asegurar el contraste adecuado.</li>
+                        <li>Supervisión del contenido y redacción de textos.</li>
+                        <li>Elaboración de la memoria técnica del proyecto.</li>
+                        <li>Gestión de capturas y documentación de diseño.</li>
+                        <li>Revisión final de estándares y especificaciones.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Proyecto de práctica · Lenguaje de Marcas · CFGS ASIR</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

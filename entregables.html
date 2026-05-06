@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Entregables · Web Corporativa ASIR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="header-logo-container">
+                <svg width="68" height="68" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" class="header-logo">
+                    <defs>
+                        <linearGradient id="logo-master" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#818cf8" />
+                            <stop offset="100%" stop-color="#4f46e5" />
+                        </linearGradient>
+                        <linearGradient id="logo-glow" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#38bdf8" />
+                            <stop offset="100%" stop-color="#0284c7" />
+                        </linearGradient>
+                    </defs>
+                    <rect width="64" height="64" rx="16" fill="url(#logo-master)" />
+                    <path d="M32 16 L14 48 L22 48 L27 38 L37 38 L42 48 L50 48 Z M32 24 L35 31 L29 31 Z"
+                        fill="#ffffff" />
+                    <path d="M14 48 L32 16 L37 38 L22 48 Z" fill="url(#logo-glow)" opacity="0.4" />
+                </svg>
+                <div class="header-titles">
+                    <h1>Web Corporativa ASIR</h1>
+                    <p class="subtitle">Entregables del Proyecto</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-content">
+            <div class="nav-links">
+                <div class="nav-item">
+                    <a href="index.html">Inicio</a>
+                    <div class="dropdown-menu">
+                        <a href="index.html#hero">Bienvenida</a>
+                        <a href="index.html#equipo">Equipo y Roles</a>
+                        <a href="index.html#estructura">Estructura</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="requisitos.html">Requisitos</a>
+                </div>
+                <div class="nav-item">
+                    <a href="roles.html">Roles</a>
+                </div>
+                <div class="nav-item">
+                    <a href="entregables.html" class="active">Entregables</a>
+                    <div class="dropdown-menu">
+                        <a href="entregables.html#entregables">Entregables</a>
+                        <a href="entregables.html#orden-trabajo">Orden del Trabajo</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="contacto.html">Contacto</a>
+                    <div class="dropdown-menu">
+                        <a href="contacto.html#formulario">Formulario</a>
+                        <a href="contacto.html#datos">Otros Datos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="entregables">
+            <h2>Materiales a Entregar</h2>
+            <p>Para la evaluación final del proyecto cada equipo debe presentar los siguientes materiales:</p>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>1. Boceto y Diseño</h3>
+                    <p>Documento que incluya:</p>
+                    <ul>
+                        <li>Temática elegida.</li>
+                        <li>Boceto inicial del layout (Wireframe) de las páginas principales.</li>
+                        <li>Esquema de colores sugerido (paleta técnica y hexadecimal).</li>
+                        <li>Justificación del diseño en base a la temática elegida.</li>
+                        <li>Tipografías elegidas y justificación de su uso.</li>
+                        <li>Mapa del sitio (jerarquía de las páginas).</li>
+                    </ul>
+                    <p class="deadline"><strong>Entrega:</strong> Al finalizar la sesión del 6 de mayo.</p>
+                </article>
+
+                <article class="card">
+                    <h3>2. Memoria del Proyecto</h3>
+                    <p>Documento PDF con el siguiente índice:</p>
+                    <ul>
+                        <li>Introducción y objetivos del sitio web.</li>
+                        <li>Descripción de la estructura y mapa del sitio.</li>
+                        <li>Paleta de colores (incluyendo contraste WCAG) y tipografías.</li>
+                        <li>Explicación de las decisiones de diseño y maquetación.</li>
+                        <li>Capturas de la visualización en distintos dispositivos.</li>
+                        <li>Dificultades encontradas y soluciones aplicadas.</li>
+                        <li>Cambios con respecto al boceto inicial.</li>
+                        <li>Enlace al repositorio de control de versiones (en caso de usarse).</li>
+                        <li>Bibliografía y recursos utilizados.</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>3. Página Web Final</h3>
+                    <p>El producto terminado entregado como:</p>
+                    <ul>
+                        <li>URL de alojamiento (GitHub Pages, Netlify, etc.) o fichero ZIP.</li>
+                        <li>Código HTML y CSS bien estructurado.</li>
+                        <li>Organización de archivos (carpetas <code>css/</code>, <code>img/</code>).</li>
+                        <li>Uso de comentarios en el código para facilitar su mantenimiento.</li>
+                        <li>Recursos optimizados (imágenes comprimidas, formatos modernos).</li>
+                        <li>Verificación de que todos los enlaces y formularios funcionan correctamente.</li>
+                        <li>Consistencia en el diseño y la navegación en todas las secciones.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="orden-trabajo" style="scroll-margin-top: 100px;">
+            <h2>Orden del Trabajo</h2>
+            <p>Para asegurar un desarrollo fluido se recomienda seguir este orden de ejecución:</p>
+            <div class="cards">
+                <article class="card">
+                    <h3>1º Fase: Concepción</h3>
+                    <p>Decidir la temática del proyecto (empresa, blog, portfolio, etc.).</p>
+                </article>
+                <article class="card">
+                    <h3>2º Fase: Diseño</h3>
+                    <p>Diseñar el layout inicial y la estructura de navegación entre todos los miembros del equipo.</p>
+                </article>
+                <article class="card">
+                    <h3>3º Fase: Desarrollo</h3>
+                    <p>Implementar el código HTML y CSS siguiendo los roles asignados.</p>
+                </article>
+                <article class="card">
+                    <h3>4º Fase: Documentación</h3>
+                    <p>Preparar la memoria final y realizar las pruebas de funcionamiento.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Proyecto de práctica · Lenguaje de Marcas · CFGS ASIR</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
